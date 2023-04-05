@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+// 定义函数，计算两个整数之和
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int x = 5, y = 7, sum;
+
+    // 调用add函数计算两数之和
+    sum = add(x, y);
+
+    // 输出结果
+    cout << "它们的和为：" << sum << endl;
+
+    return 0;
+}
